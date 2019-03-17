@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camera", "Ximea\Camera.csproj", "{1001E2F5-5CF1-4407-9398-94CFAF1548E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ximea", "Ximea", "{AFCA051A-5E4A-4E39-9D4B-30D08A40B533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{6C25E27A-9FFA-4106-BF85-B3DA18140C5B}"
+	ProjectSection(SolutionItems) = preProject
+		Packages\Ximea\x86\xiApi.NET.dll = Packages\Ximea\x86\xiApi.NET.dll
+		Packages\Ximea\x86\xiApi.NET.xml = Packages\Ximea\x86\xiApi.NET.xml
+		Packages\Ximea\x86\xiapi32.dll = Packages\Ximea\x86\xiapi32.dll
+		Packages\Ximea\x86\xiapi32.lib = Packages\Ximea\x86\xiapi32.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{A72E2610-321A-455C-B916-8D0977CE0CB7}"
+	ProjectSection(SolutionItems) = preProject
+		Packages\Ximea\x64\xiApi.NETX64.dll = Packages\Ximea\x64\xiApi.NETX64.dll
+		Packages\Ximea\x64\xiApi.NETX64.xml = Packages\Ximea\x64\xiApi.NETX64.xml
+		Packages\Ximea\x64\xiapi64.dll = Packages\Ximea\x64\xiapi64.dll
+		Packages\Ximea\x64\xiapi64.lib = Packages\Ximea\x64\xiapi64.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Drivers", "Drivers", "{3F53E6B5-8961-43E7-9D8C-E912B1125D2B}"
+	ProjectSection(SolutionItems) = preProject
+		Packages\Ximea\Drivers\cb_x64.cat = Packages\Ximea\Drivers\cb_x64.cat
+		Packages\Ximea\Drivers\CB_x64.inf = Packages\Ximea\Drivers\CB_x64.inf
+		Packages\Ximea\Drivers\CB_x64.sys = Packages\Ximea\Drivers\CB_x64.sys
+		Packages\Ximea\Drivers\Currera.inf = Packages\Ximea\Drivers\Currera.inf
+		Packages\Ximea\Drivers\Currera.sys = Packages\Ximea\Drivers\Currera.sys
+		Packages\Ximea\Drivers\mm282osisx64.cat = Packages\Ximea\Drivers\mm282osisx64.cat
+		Packages\Ximea\Drivers\mm282osisX64.inf = Packages\Ximea\Drivers\mm282osisX64.inf
+		Packages\Ximea\Drivers\mv40dcam.cat = Packages\Ximea\Drivers\mv40dcam.cat
+		Packages\Ximea\Drivers\mv40dcam.inf = Packages\Ximea\Drivers\mv40dcam.inf
+		Packages\Ximea\Drivers\mv40dcam.sys = Packages\Ximea\Drivers\mv40dcam.sys
+		Packages\Ximea\Drivers\mv40dcamx64.cat = Packages\Ximea\Drivers\mv40dcamx64.cat
+		Packages\Ximea\Drivers\mv40dcamX64.inf = Packages\Ximea\Drivers\mv40dcamX64.inf
+		Packages\Ximea\Drivers\mv40dcamX64.sys = Packages\Ximea\Drivers\mv40dcamX64.sys
+		Packages\Ximea\Drivers\WdfCoInstaller01009.dll = Packages\Ximea\Drivers\WdfCoInstaller01009.dll
+		Packages\Ximea\Drivers\wdfcoinstaller01011.dll = Packages\Ximea\Drivers\wdfcoinstaller01011.dll
+		Packages\Ximea\Drivers\ximeacabusb.cat = Packages\Ximea\Drivers\ximeacabusb.cat
+		Packages\Ximea\Drivers\ximeacabusb.inf = Packages\Ximea\Drivers\ximeacabusb.inf
+		Packages\Ximea\Drivers\ximeacabusbX64.cat = Packages\Ximea\Drivers\ximeacabusbX64.cat
+		Packages\Ximea\Drivers\ximeacabusbX64.inf = Packages\Ximea\Drivers\ximeacabusbX64.inf
+		Packages\Ximea\Drivers\ximeapcie.cat = Packages\Ximea\Drivers\ximeapcie.cat
+		Packages\Ximea\Drivers\ximeapcie.inf = Packages\Ximea\Drivers\ximeapcie.inf
+		Packages\Ximea\Drivers\ximeapcie.sys = Packages\Ximea\Drivers\ximeapcie.sys
+		Packages\Ximea\Drivers\ximeapciex64.cat = Packages\Ximea\Drivers\ximeapciex64.cat
+		Packages\Ximea\Drivers\ximeapcieX64.inf = Packages\Ximea\Drivers\ximeapcieX64.inf
+		Packages\Ximea\Drivers\ximeapcieX64.sys = Packages\Ximea\Drivers\ximeapcieX64.sys
+		Packages\Ximea\Drivers\ximeausb.cat = Packages\Ximea\Drivers\ximeausb.cat
+		Packages\Ximea\Drivers\ximeausb.inf = Packages\Ximea\Drivers\ximeausb.inf
+		Packages\Ximea\Drivers\ximeausb.sys = Packages\Ximea\Drivers\ximeausb.sys
+		Packages\Ximea\Drivers\ximeausbx64.cat = Packages\Ximea\Drivers\ximeausbx64.cat
+		Packages\Ximea\Drivers\ximeausbX64.inf = Packages\Ximea\Drivers\ximeausbX64.inf
+		Packages\Ximea\Drivers\ximeausbX64.sys = Packages\Ximea\Drivers\ximeausbX64.sys
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1001E2F5-5CF1-4407-9398-94CFAF1548E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1001E2F5-5CF1-4407-9398-94CFAF1548E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1001E2F5-5CF1-4407-9398-94CFAF1548E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1001E2F5-5CF1-4407-9398-94CFAF1548E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C25E27A-9FFA-4106-BF85-B3DA18140C5B} = {AFCA051A-5E4A-4E39-9D4B-30D08A40B533}
+		{A72E2610-321A-455C-B916-8D0977CE0CB7} = {AFCA051A-5E4A-4E39-9D4B-30D08A40B533}
+		{3F53E6B5-8961-43E7-9D8C-E912B1125D2B} = {AFCA051A-5E4A-4E39-9D4B-30D08A40B533}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB9B9127-254D-4BE1-AE5D-03A397D797B4}
+	EndGlobalSection
+EndGlobal
